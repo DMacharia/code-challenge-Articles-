@@ -6,14 +6,9 @@ end
 
 
 ###  WRITE YOUR TEST CODE HERE ###
-
-
-
-
-
-
-
-
+a1 = Author.new("Dan")
+m1 =  Magazine.new("Insider", "Lifestyle")
+art1 = Article.new(a1, m1, "School Life")
 
 ### DO NOT REMOVE THIS
 binding.pry
